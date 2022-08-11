@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.product-form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.url {
+  flex: 3 1 30ch;
+}
+nav {
+  display: flex; /* 1 */
+  justify-content: space-between; /* 2 */
+  padding: 1rem 2rem; /* 3 */
+  background: #cfd8dc; /* 4 */
+}
+
+nav ul {
+  display: flex; /* 5 */
+  list-style: none; /* 6 */
+}
+
+nav li {
+  padding-left: 1rem; /* 7! */
+}
+
+.title {
+  margin-top: 10px;
+  font-weight: 900;
+  font-size: 1.4rem;
+  color: #1da1f2;
+  letter-spacing: 1px;
+  margin-left:1.5rem;
+}
+.product {
+  border: none;
+  background: hsl(0 0% 93%);
+  border-radius: 0.25rem;
+  padding: 0.75rem 1rem;
+  /* flex: 1 1 10ch; */
+  margin: 0.5rem;
+}
+
+.container {
+  min-height: 50vh;
+  display:grid;
+  align-items: center;
+  text-align: center;
+  /* //align: center; */
+}
+
+.btn {
+  /* display: flex; */
+  flex-wrap: wrap;
+  position:relative;
+  background: rgb(101, 124, 206);
+  color: white;
+  /* box-shadow: 0 0.75rem 0.5rem -0.5rem hsl(0 50% 80%); */
+  border: none;
+  margin-left: 0.5rem;
+  border-radius: 0.25rem;
+  padding: 0.75rem 3.3rem;
+}
+
+.btn:active {
+  transform: translateY(2px)
+}
+
+body {
+  font-family: "Helvetica", Courier, monospace;
+}
